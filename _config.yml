@@ -5,9 +5,7 @@ title: "Junteng Liu"
 title_separator: "-"
 name: &name "Junteng Liu"
 description: &description "Junteng Liu is a first-year PhD candidate in the HKUST NLP Group focusing on natural language processing and machine learning."
-url: https://geomancerhearth.github.io
 baseurl: "/LJT-Homepage"
-repository: "GeomancerHearth/LJT-Homepage"
 
 # Sidebar author profile
 author:
@@ -20,13 +18,6 @@ author:
   github: "Vicent0205"
   twitter: "junteng88716710"
 
-# Publication categories
-publication_category:
-  manuscripts:
-    title: "Journal Articles"
-  conferences:
-    title: "Conference Papers"
-
 # Jekyll content settings
 markdown: kramdown
 highlighter: rouge
@@ -35,6 +26,8 @@ excerpt_separator: "\n\n"
 incremental: false
 future: true
 read_more: "disabled"
+atom_feed:
+  hide: true
 timezone: Etc/UTC
 
 collections:
